@@ -18,11 +18,12 @@ Steps:
 This lab involves setting up and testing a Virtual Private Network (VPN) using ProtonVPN. You will create an Azure virtual machine in a different geographic location, test VPN connections, and observe how VPN affects your IP address and access to websites. This exercise helps you understand the practical use of VPNs in enhancing privacy and security.
 
 Environments and Technologies Used:
-Azure Portal
-Windows 10 VM
-ProtonVPN
-Web Browsers
-Part 1: Create Virtual Machine in Azure
+- Azure Portal
+- Windows 10 VM
+- ProtonVPN
+- Web Browsers
+  
+- Part 1: Create Virtual Machine in Azure
 Record Initial IP Address:
 
 On your local computer, go to https://whatismyipaddress.com/ and note your IP address in a text file.
@@ -35,7 +36,8 @@ Record VM IP Address:
 
 Log into the VM using Remote Desktop.
 Go to https://whatismyipaddress.com/ and note the VM's IP address in a text file.
-Part 2: Sign up for ProtonVPN and Test VPN Connection
+
+- Part 2: Sign up for ProtonVPN and Test VPN Connection
 Sign up for ProtonVPN:
 
 On your local computer, sign up for a free ProtonVPN account at https://account.protonvpn.com/signup?plan=free&language=en.
@@ -47,7 +49,8 @@ Go to https://whatismyipaddress.com/ and note the new IP address.
 Browse Different Websites:
 
 Try browsing to Google, Disney, and Amazon to see if there are any differences in content or language based on the VPN server location.
-Part 3: Clean up Azure Resources
+
+- Part 3: Clean up Azure Resources
 Delete Resource Group:
 Navigate to the Azure Portal.
 Delete the Resource Group created for this lab to ensure all resources are removed.
